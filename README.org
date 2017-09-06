@@ -1,0 +1,9 @@
+* Intro
+使用sql减少excel vlookup或index函数的操作，提高人工操作效率。
+* Ops
+None
+* User
+** Tutorial
+打开excel-sql.xlsm，选中sql工作表A1单元格，点击“开发工具 - 宏 - exec_sql”，sql执行结果会输出到final_outputs工作表中。
+* Dev
+None
