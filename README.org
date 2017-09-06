@@ -6,4 +6,9 @@ None
 ** Tutorial
 打开excel-sql.xlsm，选中sql工作表A1单元格，点击“开发工具 - 宏 - exec_sql”，sql执行结果会输出到final_outputs工作表中。
 * Dev
-None
+** 如何vba新建工作表，在末端？
+https://www.google.com/search?source=hp&q=ActiveWorkbook.Worksheets.Add
+
+#+BEGIN_SRC
+ActiveWorkbook.Worksheets.Add After:=ActiveWorkbook.Sheets(ActiveWorkbook.Sheets.Count)
+#+END_SRC
